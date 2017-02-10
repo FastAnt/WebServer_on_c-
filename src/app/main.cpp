@@ -6,6 +6,7 @@
 #include <fstream>
 #include <parser/parser.hpp>
 #include <server/server.hpp>
+#include <boost/regex.hpp>
 struct t_hostparams
 {
 

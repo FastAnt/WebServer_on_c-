@@ -12,7 +12,6 @@ class server
 {
 public :
 
-
     server()
     {
         m_s_directory = "./";
@@ -32,19 +31,26 @@ public :
     ~server(){}
 
 
+    // possible have loop in which 
     void run()
     {
 
     }
 
-    // members
+
 private :
 
-
+    bool connect()
+    {
+        return true;
+    }
     bool waitForConnection()
     {
         return true;
     }
+    // members
+
+
     string          m_s_directory;
     string          m_s_ip;
     string          m_s_port;
